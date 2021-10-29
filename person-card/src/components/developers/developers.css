@@ -1,0 +1,35 @@
+.card {
+  margin: 1rem;
+
+  width: 200px;
+  height: 200px;
+
+  background-color: rgb(14, 92, 165);
+  border: 2px solid white;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.card:hover {
+  filter: brightness(0.8);
+}
+
+.card h2 {
+  margin-top: 0;
+  padding-top: 10px;
+  font-size: 28px;
+  border-bottom: 2px solid white;
+  width: 200px;
+  background-color: rgb(235, 182, 67);
+  border-radius: 12px 12px 0px 0px;
+}
+
+.card p {
+  margin-top: 20px;
+  font-size: 22px;
+}
